@@ -2,8 +2,8 @@
 Program     :   "Hello World in C"
 Author		:	Ramesh K P
 Language	:	C
-IDE		    :	Codeblocks
-Date		:	13/08/2021
+IDE		    :	Visual Studio
+Date		:	20/08/2021
 mail		:	rameshofficial75@gmail.com
 Expected Input	:	Any string. Inputed numbers and special characters
 			        are taken as strings
