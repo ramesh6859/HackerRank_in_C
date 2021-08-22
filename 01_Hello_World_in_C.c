@@ -16,10 +16,10 @@ int main()
     printf("\n");
     char *saved_string = "Hello, World!";
     char input_string[50];
-    printf("Enter any string: \n");
+    printf("Enter any string: ");
     scanf("%[^\n]s", input_string);
-    printf("%s\n", saved_string);
-    printf("%s\n", input_string);
-    printf("\n");
+    printf("\n%s", saved_string);
+    printf("\n%s", input_string);
+    printf("\n\n");
     return 0;
 }

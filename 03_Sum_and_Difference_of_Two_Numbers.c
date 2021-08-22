@@ -23,14 +23,15 @@ int main()
     int first_integer, second_integer;
     float first_float, second_float;
 
-    printf("Enter first integer: \n");
+    printf("Enter first integer: ");
     scanf("%d", &first_integer);
-    printf("Enter second integer: \n");
+    printf("Enter second integer: ");
     scanf("%d", &second_integer);
-    printf("Enter first floating point number: \n");
+    printf("Enter first floating point number: ");
     scanf("%f", &first_float);
-    printf("Enter second floating point number: \n");
+    printf("Enter second floating point number: ");
     scanf("%f", &second_float);
+    printf("\n");
 
     printf("Sum of integers: %d\n", first_integer + second_integer);
     printf("Difference of integers: %d\n", first_integer - second_integer);

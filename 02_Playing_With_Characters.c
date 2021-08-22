@@ -18,20 +18,20 @@ int main()
 {
     printf("\n");
     char input_character;
-    char *input_word;
+    char input_word[50];
     char input_sentence[50];
 
-    printf("Enter any single character: \n");
+    printf("Enter any single character: ");
     scanf("%c", &input_character);
-    printf("Enter any single word: \n");
-    scanf("%s", input_word);
-    printf("Enter any sentence: \n");
-    scanf("%[^\n]s", input_sentence);
+    printf("Enter any single word: ");
+    scanf("%19s", input_word);
+    printf("Enter any sentence: ");
+    scanf(" %[^\n]s", input_sentence);
 
-    printf("The entered character is: %c\n", input_character);
-    printf("The entered word is: %s\n", input_word);
-    printf("The entered sentence is: %s\n", input_sentence);
+    printf("\nThe entered character is: %c", input_character);
+    printf("\nThe entered word is: %s", input_word);
+    printf("\nThe entered sentence is: %s", input_sentence);
 
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
